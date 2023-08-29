@@ -33,4 +33,4 @@ Then click `Add project from disk` and locate the project you have just extracte
 ?> **Tip!** It's usually good practice to not leave your Unity projects in your download folder. Create a new folder in your disk and move your project there. **(DO THIS BEFORE DOING THE STEP ABOVE!)**
 
 ---
-*Guide Written By: LUKA*
+*Guide Written by: LUKA*

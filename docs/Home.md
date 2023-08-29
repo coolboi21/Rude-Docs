@@ -4,7 +4,7 @@
 
 Please keep in mind that the Rude Level Editor, is still currently being developed, and is prone to many bugs and issues.
 
-!> **Important** As of writing this the Rude Level Editor is private, and can only be access by submitting an application to either `@eternalUnion`, `@holawenasx4494`, or in the New Blood [Discord Server](https://discord.gg/newblood).
+!> **Important** As of writing this the Rude Level Editor is private, and can only be accessed by submitting an application to either `@eternalUnion`, `@holawenasx4494`, or in the New Blood [Discord Server](https://discord.gg/newblood).
 
 ---
 
@@ -19,4 +19,4 @@ Please keep in mind that the Rude Level Editor, is still currently being develop
     - **Additional requirements:** Hardware vendor officially supported drivers	
 
 ---
-*Guide Written By: LUKA*
+*Guide Written by: LUKA*
