@@ -84,6 +84,11 @@ Set the function to `PlayerLoadout.SetLoadout()`, this will cause the `Player Lo
 
 ---
 
+## Useful Resources
+* [Object Activators (Rude Docs)](/Components/Object%20Activator.md)
+* [List of Ultrakill Weapons (Ultrakill Wiki)](<https://ultrakill.fandom.com/wiki/Category:Weapons>)
+
+
 *Originally Written by: greengrapes0*
 
 *Adapted by: LUKA*

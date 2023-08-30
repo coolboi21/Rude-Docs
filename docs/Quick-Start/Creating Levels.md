@@ -80,7 +80,7 @@ This tutorial will teach you how setup your custom level bundle and how to expor
 
 
 > [!PROTIP]
-> Don't want to do it yourself?😴  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤDownload a premade folder containing everything already made for you [here](drive.google.com). ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ *Hey!* *At least read the docs* 😉
+> Don't want to do it yourself?😴  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤDownload a premade folder containing everything already made for you [here](https://drive.google.com/file/d/12pNKHKX-K8TFK1FFpfPnHvE5-f4XFCC3/view?usp=sharing). ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ *Hey!* *At least read the docs* 😉
 
 ### Creating Our Folder Structure *(Optional)*
 Navigate to `Assets/Custom/` and create a new folder by pressing `🖱 Right Click` and navigating to `Create/Folder`. Name this folder the desired name of your mod. We will name ours "*TutorialMod*".

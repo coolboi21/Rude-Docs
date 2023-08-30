@@ -47,7 +47,7 @@ Now that we created the gameobject that changes the game’s speed, we need to c
 
 Create a new gameobject, or use a previously existing gameobject (**with a trigger collider**).
 
-Add the [Object Spawner](/Components/Object%20Spawner.md) script to it.
+Add the [`Object Spawner`](/Components/Object%20Spawner.md) script to it.
 
 Set “Spawnables” size to 1, and drag in the prefab we created.
 
@@ -79,7 +79,8 @@ Now on building our level and testing it, once the player enters the trigger of 
 
 ## Useful Resources
 
-* [Object Activators (Tundra Docs)](<https://docs.tundra.pitr.dev/components/object-activator/>)
+* [Object Activators (Rude Docs)](/Components/Object%20Activator.md)
+* [Object Spawners (Rude Docs)](/Components/Object%20Spawner.md)
 * [Time.Timescale (Unity Docs)](<https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Time-timeScale.html>)
 * [Slomo Prefabs Download Link](<https://drive.google.com/file/d/1kagX_GrjBOC9IRrJjYjl2iWJ-86ZMDK-/view?usp=sharing>)  (*Download `.zip` extract it and import it into your project!*)
 
