@@ -1,6 +1,8 @@
 * [Home](/Home.md)
 * [Quick Start](/Quick-Start/Quick-Start.md)
-    * [Creating Levels](/Quick-Start/Creating%20Levels.md)
+    * [Setting up your First Level!](/Quick-Start/Creating%20Levels.md)
+    * [The Basics to Level Creation](/Quick-Start/Creating%20Levels.md)
+
 
 [FAQ](/FAQ.md)
 * Components 
