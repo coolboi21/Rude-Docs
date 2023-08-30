@@ -13,7 +13,7 @@ When this ULTRAKILL Event is triggered, the objects in the first list will becom
 ## OnActivate()
 Here, you can create custom behaviours by running methods on already existing components.
 
-First, you have to click on the `+` icon to create a new entry.
+First, you have to click on the `➕` icon to create a new entry.
 
 You then have to select a Game Object that has your desired function you want to use. (You can use the same Game Object your ULTRAKILL Event is on.)
 
@@ -34,7 +34,8 @@ Notably used in:
 - [Object Activator](/components/object-activator)
 - Variable Watchers
 
-?> Tip! Lists and Unity Events allow you to Drag and Drop Objects!
+> [!TIP]
+> Tip! Lists and Unity Events allow you to Drag and Drop Objects!
 
 ![Drag and Drop](assets/ultrakill-event-drag-drop.gif)
 

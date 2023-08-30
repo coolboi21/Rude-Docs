@@ -8,7 +8,8 @@ The `Player Loadout` component is used to modify the current weapons the player 
 ## Behavior
 This component is used to enable/disable which weapons the player is allowed to use during runtime, this is done by calling the [SetLoadout()](/Components/Player%20Loadout#setloadout) function.
 
-?> **Tip!** The component's `Force Start Loadout` field can be used to force whatever loadout was chosen, as soon as the level is loaded.
+> [!TIP]
+> The component's `Force Start Loadout` field can be used to force whatever loadout was chosen, as soon as the level is loaded.
 
 
 
@@ -72,7 +73,8 @@ Create a gameobject, the gamobject can have any model, but **must have a trigger
 
 To this gameobject give it the [Object Activator](/Components/Object%20Activator.md) component.
 
-?> **Tip!** You can set your Object Activator's `One Time` field to true, if you don't want the player to be triggering this multiple times! This is useful if you have a level in which multiple of these zones are used.
+> [!TIP]
+> You can set your [Object Activator](/Components/Object%20Activator.md)'s `One Time` field to true, if you don't want the player to be triggering this multiple times! This is useful if you have a level in which multiple of these zones are used.
 
 Add an event to the object activator in the `On Activate()` field, and in the blank slot that has appeared drag and reference the player loadout gameobject we created [here](/Components/Player%20Loadout#configuring-our-player-loadout-object). 
 
@@ -84,4 +86,4 @@ Set the function to `PlayerLoadout.SetLoadout()`, this will cause the `Player Lo
 
 *Originally Written by: greengrapes0*
 
-*Adapted by: greengrapes0*
+*Adapted by: LUKA*

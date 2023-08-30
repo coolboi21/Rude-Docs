@@ -5,17 +5,18 @@ The slow mo script behaves exactly like the name. It makes the game enter slow-m
 
 ## Behavior
 
-When the component becomes active ( OnEnable() ) it updates the game’s current timescale to whatever value you set in the inspector. 
+When the component becomes active (`OnEnable()`) it updates the game’s current timescale to whatever value you set in the inspector. 
 
 A quick explanation on Unity’s [Timescale](https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Time-timeScale.html "Unity Documentation")…
 
-When the *Timescale *is equal to 1, the game runs at normal speed. 
+When the *Timescale* is equal to `1`, the game runs at **normal** speed. 
 
-When the *Timescale *is equal to 0.5 the game runs at half speed. 
+When the *Timescale* is equal to `0.5` the game runs at **half** speed. 
 
-When the *Timescale *is equal to 2 the game runs at twice the normal speed.
+When the *Timescale* is equal to `2` the game runs at **double** the normal speed.
 
-> ***Note: After the slow motion script overrides the game’s current speed, the game automatically smooths back to the normal run speed by itself. What this means is you can’t have slow motion for an extended time without some hacky workarounds.***
+> [!WARNING]
+> After the slow motion script overrides the game’s current speed, the game automatically smooths back to the normal run speed by itself. In short, you can’t have slow motion for an extended time without some hacky workarounds.
 
 ## Setting up a Slow-mo Zone
 
@@ -54,9 +55,9 @@ Set “Spawnables” size to 1, and drag in the prefab we created.
 
 Now add the [`Object Activator`](/Components/Object%20Activator.md) script to our slowmo zone gameobject.
 
-Note: You can set the “One Time” field to true, if you want your slowmo to only trigger once.
+> [!TIP]
+> You can set the `One Time` field to true, if you want your slowmo to only trigger once. ㅤㅤㅤㅤㅤㅤㅤYou can set the `Delay field` to the amount of seconds you want to wait before our slowmo starts.
 
-Note: You can set the “Delay” field to the amount of seconds you want to wait before our slowmo starts.
 
 
 In the OnActivate() event box, hit the plus, that creates a new UnityEvent.
@@ -68,7 +69,8 @@ Click on the “No Function” box and select `ObjectSpawner.SpawnObject(int)`. 
 
 ![Alt text](assets/obj-activator-slomo-tut.png)
 
-***Note: What this does is it spawns item zero from our Object Spawner component which is our slowmo gameobject.***
+> [!NOTE]
+> What this does is it spawns item `zero` from our Object Spawner component which is our slowmo gameobject.
 
 
 ## Conclusion
@@ -81,9 +83,11 @@ Now on building our level and testing it, once the player enters the trigger of 
 * [Time.Timescale (Unity Docs)](<https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Time-timeScale.html>)
 * [Slomo Prefabs Download Link](<https://drive.google.com/file/d/1kagX_GrjBOC9IRrJjYjl2iWJ-86ZMDK-/view?usp=sharing>)  (*Download `.zip` extract it and import it into your project!*)
 
-> *Note: Green lines disappear on play.*
+> [!NOTE]
+> *Green lines disappear on play.*
 
-![Alt text](image-3.png)
+![Alt text](assets/slomo-zone-luka-screenshot.png)
 
 ---
+
 *Guide Written by: LUKA*

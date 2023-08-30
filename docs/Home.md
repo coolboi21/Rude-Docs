@@ -1,10 +1,12 @@
-# Home
+
+![Page Banner](/assets/rude-docs-banner.png)
 
 **Welcome to the Rude Level Editor Documentation.**
 
 Please keep in mind that the Rude Level Editor, is still currently being developed, and is prone to many bugs and issues.
 
-!> **Important** As of writing this the Rude Level Editor is private, and can only be accessed by submitting an application to either `@eternalUnion`, `@holawenasx4494`, or in the New Blood [Discord Server](https://discord.gg/newblood).
+> [!WARNING]
+> As of writing this the Rude Level Editor is private, and can only be accessed by submitting an application to either `@eternalUnion`, `@holawenasx4494`, or in the New Blood [Discord Server](https://discord.gg/newblood).
 
 ---
 
@@ -18,5 +20,9 @@ Please keep in mind that the Rude Level Editor, is still currently being develop
     - **Graphics API:** DX10, DX11, and DX12-capable GPUs	
     - **Additional requirements:** Hardware vendor officially supported drivers	
 
+> [!PROTIP]
+> Unity, along with the Rude Level Editor requires a significant portion of disk space to function properly. We suggest having `~7-10gb` free on the drive you will be creating levels on.
+
+
 ---
-*Guide Written by: LUKA*
+*Page Created by: LUKA*

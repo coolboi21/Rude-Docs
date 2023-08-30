@@ -21,7 +21,7 @@
   <script>
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
-      name: 'Simple Docsify Template',
+      name: '(Un)Official Rude Docs',
 
       // Sidebar Configuration
       auto2top: true,
@@ -36,9 +36,32 @@
         noData: 'No information found, sorry!',
         // Headline depth, 1 - 6
         depth: 2,
+      },
+
+      'flexible-alerts': {
+        style: 'flat',
+        tip: {
+          label: "Here's a Tip!",
+
+
+        },
+        attention: {
+          label: 'DANGER!',
+
+          icon: "fa-solid fa-bomb"
+        },
+
+        protip: {
+        label: "From 𝒔𝒆𝒂𝒔𝒐𝒏𝒆𝒅 level makers here's a... Pro Tip!",
+        // Assuming that we use Font Awesome
+        icon: 'fa-solid fa-bell',
+        className: 'tip'
+        }
       }
     };
   </script>
+
+  
 
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -46,6 +69,16 @@
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+
+
+<script src="https://unpkg.com/docsify-plugin-flexible-alerts"> </script>
+
+<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
+<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
+<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
+<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+
+<script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 
 </body>
 </html>
