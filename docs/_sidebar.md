@@ -15,12 +15,15 @@
         
 * Tutorials
     * Beginner
-        * Creating Checkpoints
+        * [Creating Checkpoints](/Tutorials/Beginner/Creating%20Checkpoints.md)
         * Creating Battle Encounters
         * [Lighting 101](/Tutorials/Beginner/Lighting%20101.md)
 
     * Intermediate
-        * [Configuring Discord Integration](/Tutorials/Intermediate/Discord%20Integration%20Setup.md)
+        * [Discord Integration](/Tutorials/Intermediate/Discord%20Integration%20Setup.md)
+        * [Optimization 101](/Tutorials//Intermediate/Optimization%20101.md)
 
     * Advanced
+        * [Scripting 101](/Tutorials/Advanced/Scripting%20101.md)
+
 * [Resources](/Resources/Resources.md)

@@ -116,7 +116,7 @@ With a `light` selected, the inspector will show these settings:
 > [!WARNING]
 > Be careful when placing many lights in your level as *Ultrakill will only render a maximum of 8 lights on an object*. Having more lights render can cause lights to flicker as the renderer does not know which of these 8 lights to give priorty.
 >
-> To bypass this, consider reading the [Optimization Tutorial]() to learn how to dynamically unload & load parts of your level!
+> To bypass this, consider reading the [Optimization Tutorial](/Tutorials/Intermediate/Optimization%20101.md) to learn how to dynamically unload & load parts of your level!
 
 ---
 
@@ -168,6 +168,14 @@ Before you go... here are some final tips!
     - Lights with a slight light blue hue feel very synthetic and industrial, *perfect for fluorescent lighting*.
 - **Less is more**!
     - Using less lights than you'd imagine is often a very good way to make great looking lighting, while saving on performance. 
+
+
+## Useful Resources
+
+* [Lighting in Unity (Unity Docs)](/https://docs.unity3d.com/2019.4/Documentation/Manual/LightingOverview.html)
+* [Shader (Unity Docs)](https://docs.unity3d.com/2019.4/Documentation/Manual/Shaders.html)
+* [Vertix-Lit Lighting (Unity Docs)](https://docs.unity3d.com/Manual/shader-NormalVertexLit.html)
+* [Optimization 101 (Rude Docs)](/Tutorials//Intermediate/Optimization%20101.md)  
 
 ---
 
