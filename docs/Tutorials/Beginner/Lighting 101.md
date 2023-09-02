@@ -120,14 +120,54 @@ With a `light` selected, the inspector will show these settings:
 
 ---
 
+## Scene Lighting
 
+Having good scene lighting is very important to having a properly and creatively lit level.
 
-### Conclusion
+Keep in mind scene lighting should be used as a **base** and should be supplemented with others lights too!
+
+### The Lighting Tab
+
+The lighting tab can be accessed via: `Window > Rendering > Lighting Settings`.
+
+Since this tab has a lot of information, I'm only going to cover what is relevant to ULTRAKILL.
 
 ---
 
-# PLEASE NOTE THE GUIDE IS UNFINISHED, I WILL FINISH THIS SOON (I wanna go to sleep lmao)
+### Enviroment Tab
 
+This tab is used for setting your level's skybox, which then can be used to light your level.
+
+![enviroment tab](assets/lighting-101-scene-tab.png)
+
+- **Skybox Material**: Sets the skybox of your level.
+    - Choosing a skybox here will apply it to the level, and also add uniform lighting to your level with the overall colour of your skybox:
+
+> [!TIP]
+> To use a skybox and not a solid color, `Camera Fill Mode` must be set to `Skybox` in the `First Room` object.
+>
+> ![firstroom prefab](assets/lighting-101-first-room-lighting.png)
+
+- **Intensity Multiplier**: Sets how bright the lighting from your skybox is. *If you don't want the skybox to light the level, set this to `0`*. 
+
+---
+
+## Conclusion
+
+Now you should be able to begin lighting your levels in more creative ways using all the tools Unity provides.
+
+Before you go... here are some final tips!
+- Make sure to combine regular lighting with skybox lighting!
+    - Skybox lighting is perfect to use for a base, but looks very bland by itself.
+- Don't overlight your level!
+    - Make sure the light level is as bright as you want it, but make sure to have some variation in brightness to give the level some depth.
+
+- Experiment with different colours!
+    - Using a completely white light is rarely a good idea. Tinting the light even very slightly can give your level a lot of atmosphere.
+    - *For example*: Lights with a slight orange hue make the level feel warm, *similar to prelude*.
+    - Lights with a slight light blue hue feel very synthetic and industrial, *perfect for fluorescent lighting*.
+- **Less is more**!
+    - Using less lights than you'd imagine is often a very good way to make great looking lighting, while saving on performance. 
 
 ---
 

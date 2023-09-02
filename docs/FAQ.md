@@ -31,6 +31,8 @@ Here are some things to watch out for:
 - To create custom scripts for your level follow [this guide](/Tutorials/Advanced/Custom%20Scripting.md).
 - If you modified your `.dll` in your Ultrakill's `Scripts` folder remember to restart the game.
 - Make sure to import your `.dll` into your project's `RudeScripts` an no where else.
+- Level may not contain a component provided by the script
+- Exporter may be an older version. Try updating via [#updates](https://discord.com/channels/1121799211101458572/1124763099535261786)! 
 
 ---
 
