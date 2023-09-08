@@ -16,7 +16,7 @@
 * Tutorials
     * Beginner
         * [Creating Checkpoints](/Tutorials/Beginner/Creating%20Checkpoints.md)
-        * Creating Battle Encounters
+        * [Creating Arenas](/Tutorials/Beginner/Creating%20Arenas.md)
         * [Lighting 101](/Tutorials/Beginner/Lighting%20101.md)
 
     * Intermediate
